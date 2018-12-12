@@ -36,7 +36,32 @@
     acts as if all keys in string are pressed in order near instantly.
     script contiunes once all keys are sent.
     sending special keys such as backspace ({bs}) or enter (~) can be found by referencing
-    https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.devices.keyboard.sendkeys?view=netframework-4.7.2
+    
+    KEY                       CODE
+    
+    BACKSPACE	                {BACKSPACE} or {BS}
+    BREAK 	                  {BREAK}
+    CAPS LOCK 	              {CAPSLOCK}
+    CLEAR 	                  {CLEAR}
+    DELETE	|                 {DELETE} or {DEL}
+    DOWN ARROW |	            {DOWN}
+    END |	{END}
+    ENTER (numeric keypad)  	{ENTER}
+    ENTER 	                   ~
+    ESC 	                    {ESCAPE} or {ESC}
+    HELP  	                  {HELP}
+    HOME  	                  {HOME}
+    INS 	                    {INSERT}
+    LEFT ARROW  	            {LEFT}
+    NUM LOCK  	              {NUMLOCK}
+    PAGE DOWN  	              {PGDN}
+    PAGE UP  	                {PGUP}
+    RETURN  	                {RETURN}
+    RIGHT ARROW  	            {RIGHT}
+    SCROLL LOCK  	            {SCROLLLOCK}
+    TAB  	                    {TAB}
+    UP ARROW  	              {UP}
+    F1 through F15  	        {F1} through {F15}
   
   vbs.alert:
   
