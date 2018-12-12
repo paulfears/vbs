@@ -1,10 +1,11 @@
 # vbs
 <h1>Visul basic script module for python</h1>
-<h2>allows python to: synthesize keyboard input, create visual basic style alerts and use text-to-speech</h2>
+<h2>allows python to: </h2>
+  synthesize keyboard input, create visual basic style alerts and use text-to-speech
 <br>
-<h2>Windows only</h2>
+<h3>Windows only</h3>
 <br>
-<h2>useage:</h2>
+<h3>useage:</h3>
 
   <h4>Text to Speech</h4>
   
