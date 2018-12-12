@@ -46,7 +46,7 @@
     DELETE	                  {DELETE} or {DEL}
     DOWN ARROW  	            {DOWN}
     END                     	{END}
-    ENTER (numeric keypad)  	{ENTER}
+    ENTER (numeric keypad)    {ENTER}
     ENTER 	                   ~
     ESC 	                    {ESCAPE} or {ESC}
     HELP  	                  {HELP}
