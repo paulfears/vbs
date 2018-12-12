@@ -36,7 +36,7 @@
     acts as if all keys in string are pressed in order near instantly.
     script contiunes once all keys are sent.
     sending special keys such as backspace ({bs}) or enter (~) can be found by referencing
-    <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.devices.keyboard.sendkeys?view=netframework-4.7.2">vbs special keys</a>
+    https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.devices.keyboard.sendkeys?view=netframework-4.7.2
   
   vbs.alert:
   
