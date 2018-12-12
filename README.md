@@ -6,34 +6,39 @@
 <br>
 <h2>useage:</h2>
 
-  Text to Speech
-  '''python
+  <h4>Text to Speech</h4>
+  
+  ```python
   import vbs
   vbs.tts("words to speak")
-  '''
+  ```
 
-  Alerts
-  '''python
+  <h4>Alerts</h4>
+  
+  ```python
   import vbs
   vbs.alert("alert body", boxtype="yesno", title="title text")
-  '''
+  ```
 
-  Synthesize keyboard input
-  '''python
+  <h4>Synthesize keyboard input</h4>
+  
+  ```python
   import vbs
   vbs.sendkeys("keys to send")
-  '''
+  ```
 <h2>Other infomation:</h2>
 
   <h3>all functions are blocking</h3>
 
   vbs.sendkeys:
+  
     acts as if all keys in string are pressed in order near instantly.
     script contiunes once all keys are sent.
     sending special keys such as backspace ({bs}) or enter (~) can be found by referencing
     https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualbasic.devices.keyboard.sendkeys?view=netframework-4.7.2
   
   vbs.alert:
+  
     alert times out by default after 100 minutes.
     this can be changed by passing a different value to the timeout optional argument.
     which is passed as an integer number of secounds.
@@ -47,6 +52,7 @@
     
     you can change the title of the alert by passing a string to the option title argument
     
-  vbs.tts
+  vbs.tts:
+  
     calling tts freezes execution path untill entire messege is spoken
     then returns "done" as a string
