@@ -43,9 +43,9 @@
     BREAK 	                  {BREAK}
     CAPS LOCK 	              {CAPSLOCK}
     CLEAR 	                  {CLEAR}
-    DELETE	|                 {DELETE} or {DEL}
-    DOWN ARROW |	            {DOWN}
-    END |	{END}
+    DELETE	                  {DELETE} or {DEL}
+    DOWN ARROW  	            {DOWN}
+    END                     	{END}
     ENTER (numeric keypad)  	{ENTER}
     ENTER 	                   ~
     ESC 	                    {ESCAPE} or {ESC}
