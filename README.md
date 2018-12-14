@@ -37,31 +37,31 @@
     script contiunes once all keys are sent.
     sending special keys such as backspace ({bs}) or enter (~) can be found by referencing
     
-    KEY                       CODE
-    
-    BACKSPACE	                {BACKSPACE} or {BS}
-    BREAK 	                  {BREAK}
-    CAPS LOCK 	              {CAPSLOCK}
-    CLEAR 	                  {CLEAR}
-    DELETE	                  {DELETE} or {DEL}
-    DOWN ARROW  	            {DOWN}
-    END                     	{END}
-    ENTER (numeric keypad)    {ENTER}
-    ENTER 	                   ~
-    ESC 	                    {ESCAPE} or {ESC}
-    HELP  	                  {HELP}
-    HOME  	                  {HOME}
-    INS 	                    {INSERT}
-    LEFT ARROW  	            {LEFT}
-    NUM LOCK  	              {NUMLOCK}
-    PAGE DOWN  	              {PGDN}
-    PAGE UP  	                {PGUP}
-    RETURN  	                {RETURN}
-    RIGHT ARROW  	            {RIGHT}
-    SCROLL LOCK  	            {SCROLLLOCK}
-    TAB  	                    {TAB}
-    UP ARROW  	              {UP}
-    F1 through F15  	        {F1} through {F15}
+   |KEY                   |               CODE|
+   |----------------------|-------------------|
+   |BACKSPACE             |{BACKSPACE} or {BS}|
+   |BREAK                 |{BREAK}            |
+   |CAPS LOCK             |{CAPSLOCK}         |
+   |CLEAR                 |{CLEAR}            |
+   |DELETE                |{DELETE} or {DEL}  |
+   |DOWN ARROW            |{DOWN}             |
+   |END                   |{END}              |
+   |ENTER (numeric keypad)|{ENTER}            |
+   |ENTER 	              |~                  |
+   |ESC 	                |{ESCAPE} or {ESC}  |
+   |HELP  	              |{HELP}             |
+   |HOME  	              |{HOME}             |
+   |INS 	                |{INSERT}           |
+   |LEFT ARROW  	        |{LEFT}             |
+   |NUM LOCK  	          |{NUMLOCK}          |
+   |PAGE DOWN  	          |{PGDN}             |
+   |PAGE UP  	            |{PGUP}             |
+   |RETURN  	            |{RETURN}           |
+   |RIGHT ARROW  	        |{RIGHT}            |
+   |SCROLL LOCK  	        |{SCROLLLOCK}       |
+   |TAB  	                |{TAB}              |
+   |UP ARROW  	          |{UP}               |
+   |F1 through F15  	    |{F1} through {F15} |
   
   vbs.alert:
   
